@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color : #218221;
+    
+    main {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            border-style: dotted;
+            border-width: 1px 0 0 1px;
+            border-color: white;
+            
+            section{
+                border-style: dotted;
+                border-width: 0 1px 1px 0;
+                border-color: white;
+            }
+        }
+    }
+    
+    
+}
